@@ -24,7 +24,7 @@ browser.open_new_tab(password)
 for i in range(0, 18):
 	if i <= 0:
 		mouse.position = (960,260)
-		time.sleep(3)
+		time.sleep(2.5)
 		mouse.click(Button.left)
 		mouse.position = (940, 490)
 		time.sleep(0.5)
@@ -52,7 +52,7 @@ for i in range(0, 18):
 		mouse.click(Button.left)
 		if i == 17:
 			while True:
-				time.sleep(3)
+				time.sleep(0.5)
 				mouse.position = (960,260)
 				keyboard.send("down arrow")
 				keyboard.send("enter")
