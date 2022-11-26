@@ -1,3 +1,7 @@
+#Version one!
+#Not fast!
+
+
 import os
 import webbrowser
 import pyscreenshot
